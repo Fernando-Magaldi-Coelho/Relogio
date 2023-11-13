@@ -1,0 +1,142 @@
+.Cards{
+    background-color: #1A1A2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 31rem;
+    text-align: center;
+    height: 30rem;
+    flex-wrap: wrap;
+    box-shadow: 0px 6px 98px 0px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 6px 98px 0px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 6px 98px 0px rgba(0,0,0,0.76);
+}
+
+.container_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.card{
+    
+    margin: 2rem;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 30rem;
+    color: white;
+}
+
+
+
+.img_relogio{
+    height: 480px;
+    width: 480px;
+    transform: scaleX(-1);
+}
+
+.tittle_card{
+    font-size: 25px;
+    color: var(--bege_clr);
+    font-weight: bolder;
+}
+
+.par_relo1{
+    font-size: 18px;
+}
+
+
+.ofertas{
+    background-color: #202040;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35rem;
+    text-align: center;
+    height: 70rem;
+    flex-wrap: wrap;
+    box-shadow: 0px 6px 98px 0px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 6px 98px 0px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 6px 98px 0px rgba(0,0,0,0.76);
+    color: white;
+}
+
+.containers_ofer{
+    top: 5rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_ofert{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+}
+
+.list_ofert li{
+    display: flex;
+    gap: 25rem;
+    position: relative;
+    margin-bottom: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_ofert1{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -5rem;
+}
+
+.list_ofert1 li{
+    display: flex;
+    gap: 25rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_relogio2{
+    height: 360px;
+    width: 360px;
+    border-radius: 5px;
+    background-image: url('/assets/imgs/img8.png');
+    background-size: cover;
+}
+
+.img_relogio3{
+    height: 360px;
+    width: 360px;
+    border-radius: 5px;
+    background-image: url('/assets/imgs/im1.jpg');
+    background-size: cover;
+}
+
+.list_ofert ul{
+    position: relative;
+    right: 9rem;
+    width: 360px;
+}
+
+.list_ofert ul p{
+    padding: 5px;
+}
+
+.list_ofert1 ul{
+    position: relative;
+    left: 9rem;
+    width: 360px;
+}
+
+.list_ofert1 ul p{
+    padding: 5px;
+}
