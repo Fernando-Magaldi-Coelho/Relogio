@@ -1,0 +1,61 @@
+.navbar{
+    position: fixed;
+    background-color: var(--fundo1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+    min-height: 4rem;
+    top: 0;
+    z-index: 10;
+    transition: all .3s linear;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul a{
+    margin: 5px;
+    color: white;
+    transition: transform .3s linear;
+    margin-left: .7rem;
+}
+
+.logo{
+    font-family: 'Lobster', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar ul a:hover{
+    transform: translateY(-2px);
+}
+
+.navbar.scroll {
+    background-color: transparent; 
+    transition: background-color .3s linear; 
+}
+
+
+.container_timer{
+    background-color: greenyellow;
+    font-size: 1.5rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 13px 27px -5px, rgba(0, 0, 0, 10) 0px 8px 16px -8px;
+}
+
+.container_timer .timer{
+}
+
+.img_timer{
+    height: 32px;
+    width: 32px;
+}
